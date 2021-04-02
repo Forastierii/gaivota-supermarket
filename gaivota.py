@@ -85,7 +85,8 @@ if choice == "Recomendador":
         #st.write(show_user_df.columns[0]) #só mostrando que o termo zero das colunas é 'Produto'
         show_user_df = show_user_df.groupby(show_user_df.columns[0]).sum().T
 
-    st.subheader('Carrinho de compras: ', show_user_df)
+    st.subheader("Carrinho de compras:")
+    st.write(show_user_df)
 
     #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     #Cálculo da matriz de similaridade e disposição dos resultados
