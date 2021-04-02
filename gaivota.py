@@ -216,7 +216,7 @@ elif choice == "Sistemas de Recomendação":
     st.text("")
     st.text("")
 
-    st.image("anexos/recommendation-systems-types.png", width=600, caption="Tipos de filtragem para sistemas de recomendação.", output_format='JPEG')
+    st.image("anexos/recommendation-systems-types.png", width=600, caption="Tipos de filtragem para sistemas de recomendação. Fonte: https://www.themarketingtechnologist.co/building-a-recommendation-engine-for-geeksetting-up-the-prerequisites-13/", output_format='JPEG')
 
     st.text("")
     st.text("") 
