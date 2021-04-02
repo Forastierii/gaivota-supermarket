@@ -143,7 +143,7 @@ elif choice == "O Gaivota":
     st.text("")
     st.text("")
 
-    faturamento = pd.read_csv('faturamento_diario.csv', sep=';', error_bad_lines=False)#.fillna(value=0) #ler o csv contendo o faturamento diário
+    faturamento = pd.read_csv('anexos/faturamento_diario.csv', sep=';', error_bad_lines=False)#.fillna(value=0) #ler o csv contendo o faturamento diário
     #st.write(faturamento) #dataframe com faturamento diário
 
     timeseries_faturamento_diario = alt.Chart(faturamento).mark_line().encode(
