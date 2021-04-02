@@ -138,7 +138,7 @@ elif choice == "O Gaivota":
     st.text("")
     st.text("")
     
-    st.write("Com as restrições advindas da pandemia, o comércio da região foi fortemente afetado e ocasionou o fechamento de vários empreendimentos em Pinheiros. O faturamento do Gaivota caiu consideravelmente a partir do lockdown de Março porém com volta de crescimento nos meses seguintes com a reabertura.")
+    st.write("Com as restrições advindas da pandemia, o comércio da região foi fortemente afetado e ocasionou o fechamento de vários empreendimentos em Pinheiros. O faturamento do Gaivota caiu consideravelmente a partir do lockdown de Março porém voltou nos meses seguintes com a reabertura.")
 
     st.text("")
     st.text("")
@@ -161,7 +161,7 @@ elif choice == "O Gaivota":
     #faturamento_grouped = faturamento.groupby('Mês-Num').sum() #dataframe com faturamento mensal
     #st.write(faturamento_grouped) #mostrar o dataframe de faturamento mensal
     
-    st.write("Apesar do ritmo de volta, são esperados novos lockdowns. Essa resposta em forma de onda, vem juntamente com grande variação do faturamento de forma inesperada, o que é prejudicial à saúde e o planejamento de estoque do comércio.")
+    st.write("Apesar da retomada no faturamento observado são esperados novos lockdowns. A grande variação do faturamento, e principalmente pelo fato dela ser inesperada, é prejudicial à saúde e o planejamento de estoque do comércio. Vários produtos encalham nas prateleiras.")
     st.text("")
     st.text("")
     st.text("")
@@ -176,7 +176,7 @@ elif choice == "O Gaivota":
     )
     st.altair_chart(boxplot_faturamento_mensal)
 
-    st.write("A única maneira de sobreviver a essa situação seria através da inovação, alcance de um número maior de clientes e divulgação de produtos menos conhecidos pelo público. Aí surge a oportunidade de aplicar um sistema de recomendação de produtos aos clientes da loja, para aumentar a captura de clientes em produtos menos conhecidos pelos clientes, porém com alta chance de captura devido a similaridade de gostos entre clientes.")
+    st.write("A única maneira de sobreviver a essa situação seria através da inovação. Nesse caso, o alcance de um número maior de clientes e divulgação de produtos menos conhecidos pelo público. Aí surge a oportunidade de aplicar um sistema de recomendação de produtos aos clientes da loja, para aumentar a captura em produtos menos conhecidos e beneficiando-se da similaridade de gostos entre os clientes.")
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Navegando à pagina sobre o projeto de Sistema de Recomendação#
