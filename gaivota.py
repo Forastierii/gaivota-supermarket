@@ -190,7 +190,7 @@ elif choice == "Sistemas de Recomendação":
     st.text("")
     st.text("")
 
-    st.image("anexos/vitrine_fisica2.jpg", width=300, caption="Sistema de recomendação 'old school'.", output_format='JPEG')
+    st.image("anexos/vitrine_fisica2.jpg", width=500, caption="Sistema de recomendação 'old school'.", output_format='JPEG')
 
     st.text("")
 
@@ -200,7 +200,7 @@ elif choice == "Sistemas de Recomendação":
     st.text("")
     st.text("") 
 
-    st.image("anexos/vitrine_online_weird.JPG", width=500, caption="Vitrine online do curioso e-commerce Prankalot: https://prankalot.com/.", output_format='JPEG')
+    st.image("anexos/vitrine_online_weird.JPG", width=600, caption="Vitrine online do curioso e-commerce Prankalot: https://prankalot.com/.", output_format='JPEG')
     
     st.text("")
     st.text("") 
@@ -216,7 +216,7 @@ elif choice == "Sistemas de Recomendação":
     st.text("")
     st.text("")
 
-    st.image("anexos/recommendation-systems-types.png", width=800, caption="Tipos de filtragem para sistemas de recomendação. Fonte: https://www.themarketingtechnologist.co/building-a-recommendation-engine-for-geeksetting-up-the-prerequisites-13/", output_format='JPEG')
+    st.image("anexos/recommendation-systems-types.png", width=700, caption="Tipos de filtragem para sistemas de recomendação. Fonte: https://www.themarketingtechnologist.co/building-a-recommendation-engine-for-geeksetting-up-the-prerequisites-13/", output_format='JPEG')
 
     st.text("")
     st.text("") 
