@@ -230,7 +230,7 @@ elif choice == "Sistemas de Recomendação":
     st.write("Algumas características do dataset que apresentam desafios:")
     st.write("-","Matriz esparsa: muitos produtos, muitos clientes, pouca interação cliente-produtos.")
     st.write("-","Possíveis grupos de clientes: existem certos grupos de clientes que podem ser explorado futuramente via Clustering (veganos, orientais, doceiros, etc.) e que poderiam refinar a recomendação.")
-    st.write("-","Inconsistência nos labels: produtos com nomes levemente diferentes, devido a origem, peso ou quantidade de unidades, apresentam.")
+    st.write("-","Inconsistência nos labels: produtos com nomes levemente diferentes, devido a origem, peso ou quantidade de unidades, podem acabar sendo sugeridos na compra de produtos praticamente iguais. Exemplo: o cliente comprar um Shoyo Sakura 500ml e os sitema sugerir um Shoyo Ajinomoto 1L.")
     st.write("-","Somente compras realizadas com CPF/CNPJ estão presentes nas base de dados, o que pode deixar a base menos representativa em algumas situações. Exemplo: compras com poucos itens normalmente as pessoas não pedem CPF na nota e há produtos mais associados a compras pequenas, como refrigerantes.")
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
