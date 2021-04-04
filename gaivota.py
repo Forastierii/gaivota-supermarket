@@ -161,7 +161,7 @@ elif choice == "O Gaivota":
     #faturamento_grouped = faturamento.groupby('Mês-Num').sum() #dataframe com faturamento mensal
     #st.write(faturamento_grouped) #mostrar o dataframe de faturamento mensal
     
-    st.write("Apesar da retomada no faturamento observado são esperados novos lockdowns. A grande variação do faturamento, e principalmente pelo fato dela ser inesperada, é prejudicial à saúde e o planejamento de estoque do comércio. Vários produtos encalham nas prateleiras.")
+    st.write("Apesar da retomada no faturamento observado são esperados novos lockdowns. A grande variação do faturamento, e principalmente pelo fato dela ser inesperada, é prejudicial à saúde e o planejamento de estoque do comércio, podendo ocorrer sobrestoque de vários produtos considerados supérfluos ou menos conhecidos.")
     st.text("")
     st.text("")
     st.text("")
