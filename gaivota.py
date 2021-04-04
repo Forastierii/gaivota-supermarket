@@ -153,7 +153,7 @@ elif choice == "O Gaivota":
     ).properties(
         width=800,
         height=300,
-        title='Faturamento diário (R$) de Janeiro/2020 a Julho/2020'
+        title='Faturamento diário fantasia de Janeiro/2020 a Julho/2020'
     )
     st.altair_chart(timeseries_faturamento_diario)
 
@@ -172,7 +172,7 @@ elif choice == "O Gaivota":
     ).properties(
         width=600,
         height=450,
-        title='Boxplot do faturamento mensal (R$) de Janeiro/2020 a Julho/2020',
+        title='Boxplot do faturamento mensal fantasia de Janeiro/2020 a Julho/2020',
     )
     st.altair_chart(boxplot_faturamento_mensal)
 
