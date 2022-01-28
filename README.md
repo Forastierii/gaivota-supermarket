@@ -1,4 +1,4 @@
-# gaivota-supermarket
+# Gaivota Supermarket: a recommendation system for a real supermarket
 Project on recommending systems with real dataset from a brazilian supermarket.
 On this project, I aimed at building a recommendation system (memory-based collaborative filtering type) with real datase from a supermarket. The system was deployed to Streamlit in order to explain and make it interactive to those watching it work. The first step of implementation is done, which was constructing the system and implementing on Streamlit.
 
